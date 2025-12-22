@@ -2,7 +2,7 @@ let data = [];
 let currentUserEmail = "";
 
 // REPLACE with your NEW Google Web App URL from Deployment
-const scriptURL = "https://script.google.com/macros/s/AKfycbyLasqbffYrDfrOOGmJ4CBVFIG7Y-Vk9vJ6_-622SO80NB5jeyEKpwkE1WEb50ysNfWaA/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbwV1nCKIKGdOx47ioZdlqGhReaEHic8SP3zaySjrs9W1LsAUj4V_cXl7rzuya5DHyk0/exec";
 
 // --- 1. INITIALIZE LOGIN ---
 window.onload = function () {
@@ -153,5 +153,6 @@ function exportExcel() {
   a.click();
   document.body.removeChild(a);
 }
+
 
 
