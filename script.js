@@ -40,7 +40,7 @@ async function handleCredentialResponse(response) {
       statusText.style.color = "#2e7d32";
     } else {
       // If status is "Pending" or "New"
-      alert("Access Pending: Your account has been registered. Please wait for the admin to type 'Approved' in the Users sheet.");
+      alert("Access Pending: Your account has been registered. Please wait for the admin to Approve.");
       statusText.innerText = "Awaiting Admin Approval";
       statusText.style.color = "#f57c00";
     }
@@ -159,4 +159,5 @@ function exportExcel() {
   a.click();
   document.body.removeChild(a);
 }
+
 
