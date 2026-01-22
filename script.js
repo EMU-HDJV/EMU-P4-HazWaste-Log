@@ -84,8 +84,8 @@ async function addEntry() {
   const file = fileInput.files[0];
   let fileData = null;
 
-  if (!date || !volume || !waste) {
-    alert("Please complete all fields");
+  if (!date || !volume || !waste || !file) {
+    alert("All fields including photo proof are required");
     return;
   }
 
@@ -159,5 +159,6 @@ function exportExcel() {
   a.click();
   document.body.removeChild(a);
 }
+
 
 
